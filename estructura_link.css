@@ -15,10 +15,16 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .container {
     width: 85%;
     padding: 0; }
+
+.seccion{margin: 2%;  font-size: 16px}
+.contenedor{ font-size: 13px; margin: 5%;}
+.nombre2 { font-size: 13px;}
+.menu{font-size: 13px;}
+
 }
 
 /* For devices larger than 550px */
@@ -32,6 +38,17 @@
   .columns:first-child {
     margin-left: 0; }
 
+    h2 {
+      font-size: 23px;
+      line-height: 86px;
+      padding: auto;
+      margin: 0%;
+    }
+
+  a {
+    color: #06adeb;
+    text-decoration: none;
+  }
 }
 
 .menu{
@@ -58,6 +75,11 @@ body {
     height: 21px;
     fill: #0085FF;
   }
+
+  .footer{
+  margin: 20%;
+  }
+
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -92,17 +114,6 @@ h2 {
   h2::first-letter{
   color:#105783; /* NOTE: primera letra */
  }
-/* Larger than phablet */
-@media (min-width: 550px) {
-  h2 { font-size: 23px; line-height: 86px;}
-}
-
-a {
-  color: #06adeb;
-  text-decoration: none;
-}
-
-
 
   h1 {
     margin-top: 0;
