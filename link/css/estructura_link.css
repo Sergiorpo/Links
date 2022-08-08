@@ -2,7 +2,9 @@
 /* Estructura
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 html {
-  font-size: 100%; }
+  font-size: 100%;
+
+  }
 body {
   font-size: 18px;
   line-height: 24px;
@@ -19,20 +21,15 @@ footer{
 }
 
 .container {
-  position: relative;
+  margin: 0;
+  position: center;
   width: 100%;
   max-width: 780px;
   text-align: center;
   margin: 0 auto;
   padding: 0 10px;
-  box-sizing: border-box; }
-.column {
-  position: center;
-  width: 100%;
   float: center;
   box-sizing: border-box; }
-
-
 
 /* Mix
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -59,9 +56,9 @@ img {
 }
 
 .contenedor {
-text-align: left;
-text-decoration: none;
-font-family: 'Merriweather', serif;
+  text-align: left;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
 }
 .contenedor:hover{
   padding-top: 1px;
@@ -106,6 +103,10 @@ font-family: 'Merriweather', serif;
   color:#a4bba9; /* NOTE: primera letra */
  }
 
+ .title_seccion{
+   font-size: 14px;
+   font-family: 'Merriweather', serif;
+ }
 
   p {
     margin-top: 0px; }
