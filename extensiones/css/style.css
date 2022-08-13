@@ -1,0 +1,85 @@
+body{
+  margin-top: 5%;
+  font-size: 1.7vh;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  background-color: #161616;
+  color: #b6becd;
+}
+html{
+
+
+}
+footer{
+  text-align: center;
+  font-size: 1vh;
+  color: white;
+  margin: 3% auto 3% auto;
+}
+a{
+  text-decoration: none;
+  color: #b6becd;
+}
+
+a:hover{
+  color: #0fd7ae;
+}
+
+.title{
+  margin: auto auto 5% auto;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.4vh;
+  font-family: 'Merriweather', serif;
+  box-sizing: border-box;
+  position: center;
+}
+
+.title img{
+  width: 90px;
+  height: 90px;
+}
+.section{
+  position: relative;
+  max-width: 780px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  position: center;
+  width: 100%;
+  float: center;
+  box-sizing: border-box;
+}
+
+.extension {
+  border-radius: 15px 15px 15px 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #7c7d80;
+  padding: 8px 15px 6px 30px;
+  background-color: #454545;
+  color: #a2b9c6;
+  text-decoration: none;
+  color: white;
+  font-family: 'Merriweather', serif;
+  list-style:none;
+}
+
+.extension ol li{
+  position: relative;
+  text-align: center;
+  color: #d0d9ea;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  column-span: none;
+}
+
+.extension:hover{
+  background-color: #7c7d80;
+  border-color: #454545;
+
+}

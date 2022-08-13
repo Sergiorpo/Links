@@ -1,12 +1,10 @@
 /* For devices larger than 400px */
 @media (max-width: 400px) {
   .container {
-    margin: 0;
     position: center;
     width: auto;
-
     text-align: center;
-    margin: 0 auto;
+    margin-right: 0px;
     padding: 0 10px;
     float: center;
     box-sizing: border-box;
@@ -68,7 +66,8 @@ h2 {
     width: auto;
     max-width: 450px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0px;
+    margin-right: 0px;
     padding: 0 10px;
     float: center;
     box-sizing: border-box;
