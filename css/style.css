@@ -41,6 +41,21 @@ a:hover{
   width: 90px;
   height: 90px;
 }
+
+
+.welcome{
+  text-align: center;
+  font-size: 1.7rem;
+  color: #c572a1;
+  text-shadow: red -2px 0,
+	             cyan 2px 0;
+  margin-bottom: 5%;
+  font-family: 'Merriweather', serif;
+}
+.welcome::selection{
+  color:#72c5af;
+}
+
 .section{
   position: relative;
   max-width: 780px;
@@ -66,6 +81,8 @@ a:hover{
   color: white;
   font-family: 'Merriweather', serif;
   list-style:none;
+  margin-top: 3%;
+  margin-bottom: 5%;
 }
 
 .extension ol li{
@@ -73,13 +90,13 @@ a:hover{
   text-align: center;
   color: #d0d9ea;
   flex-direction: column;
-  margin-top: 3%;
-  margin-bottom: 2%;
   column-span: none;
 }
 
 .extension:hover{
   background-color: #7c7d80;
   border-color: #454545;
-
+  -webkit-box-shadow: -2px 55px 34px -23px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 55px 34px -23px rgba(0,0,0,0.75);
+  box-shadow: -2px 55px 34px -23px rgba(0,0,0,0.75);
 }
