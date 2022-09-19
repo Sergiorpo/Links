@@ -195,3 +195,17 @@ h2::selection{
   -webkit-box-shadow: -2px 55px 34px -23px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 55px 34px -23px rgba(0,0,0,0.75);
   box-shadow: -2px 55px 34px -23px rgba(0,0,0,0.75);
+}
+  /* Tutorial  ––––––––––––––––––––––– */
+
+  .extension.tutorial{
+    border-color: #676737;
+    background-color: #333621;
+  }
+
+  .extension.tutorial:hover{
+    border-color: #bdb651;
+    background-color: #4c4824;
+    -webkit-box-shadow: -2px 55px 34px -23px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 55px 34px -23px rgba(0,0,0,0.75);
+    box-shadow: -2px 55px 34px -23px rgba(0,0,0,0.75);

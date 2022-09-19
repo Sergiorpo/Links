@@ -5,7 +5,7 @@ body{
   font-weight: 400;
   font-family: 'Merriweather', serif;
   font-style: normal;
-  background-color: #161616;
+  background-color: black;
   color: #b6becd;
 }
 html{
@@ -72,11 +72,7 @@ a:hover{
 }
 
 .extension:hover{
-  border-radius: 15px 15px 15px 15px;
-  border-width: 1px;
-  border-style: solid;
   border-color: #7c7d80;
-  padding: 8px 15px 6px 30px;
   background-color: #454545;
 
 }
