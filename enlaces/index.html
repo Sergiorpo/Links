@@ -1,78 +1,691 @@
+<!-- Enlaces - Beta  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Enlaces.</title>
+  <title>Enlaces</title>
   <meta name="description" content="Find us online!">
   <meta name="author" content="Seth Cottle">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="./img/04.png">
+  <link rel="shortcut icon" href="../img/04.png">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="./img/ventana.png">
+<!-- Fuentes  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="./css/style.css">
 </head>
   <!-- Body / Estructura
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <body>
-    <section class="title">
-      <img src="./img/link.png" alt="">
-      <h2>Enlaces</h2>
-      <p>Herramientas web, blogs de noticias, aplicaciones, recursos etc.</p>
-    </section>
-    <!-- Seguridad
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<section class="section">
-<h2 class="title_section">Seguridad</h2>
-<p>Paginas relacionadas con la seguridad informatica.</p>
+<body>
 
-  <ol class="extension">
+  <!-- Avatar / Titulo
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section class="title" >
+    <div class="avatar"></div>
+    <p>Paginas recomendas clasificadas por categorias como herramientas, seguridad, descargas etc. La descripcion incluye una serie de #hastag que facilita la busqueda.</p>
+  </section>
+
+  <!-- Menu
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="menu" >
+  <select onchange="window.location=this.value">
+    <option value="index.html">Menu..</option>
+    <option value="index.html#seguridad">Seguridad</option>
+    <option value="index.html#app_web">Aplicaciones Web</option>
+    <option value="index.html#diseño">Diseño</option>
+    <option value="index.html#compartir">Compartir</option>
+    <option value="index.html#Utilidades">Utilidades</option>
+    <option value="index.html#telegram">Telegram</option>
+    <option value="index.html#blogs">Blogs</option>
+    <option value="index.html#descargas">Descargas</option>
+    <option value="index.html#otros">Otros</option>
+  </select>
+
+</div>
+
+  <!-- Seccion / Seguridad
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section class="section">
+<div class="seccion"><h2 id="seguridad" data-title="Paginas relacionadas con la seguridad">Seguridad</h2></div>
+
+  <ol class="box">
     <li>
-      <a href="https://haveibeenpwned.com/">Haveibeenpwned.com</a>
+      <a href="https://haveibeenpwned.com">Haveibeenpwned.com</a>
       <p>Página donde podrás ver si tu correo/contraseña ha sido filtrada por internet.</p>
       <p class="hashtag">#robo #clave #contraseña #filtrada #correo</p>
     </li>
   </ol>
 
-  <ol class="extension">
+  <ol class="box">
     <li>
-      <a href="https://haveibeenpwned.com/">Haveibeenpwned.com</a>
-      <p>Página donde podrás ver si tu correo/contraseña ha sido filtrada por internet.</p>
-      <p class="hashtag">#robo #clave #contraseña #filtrada #correo</p>
+      <a href="https://passwords.google.com/checkup/start?ep=1&pr=pwm&pli=1">Passwords.google.com</a>
+      <p class="resumen">Web de Google para comprobar si tu clave fue filtrada.</p>
+      <p class="hashtag">#robo #clave #contraseña #filtrada #correo #Google</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://phishcheck.me">Phishcheck.me</a>
+      <p>PhishCheck, una página web para comprobar si es phishing o no.</p>
+      <p class="hashtag">#web #seguridad #phishing  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://themarkup.org/blacklight">Themarkup.org/blacklight</a>
+      <p>Blacklight. Introduce una dirección web y te muestra los rastreadores de datos que pueda tener, así como a quién se le entregan esos datos.</p>
+      <p class="hashtag">#rastreadores #rastreadores_web #datos  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://metadefender.opswat.com/">metadefender.opswat.com/</a>
+      <p>Antivirus Online. Sube un fichero y lo analiza en busca de virus. La versión gratuita permite subir archivos de hasta 140 MB.</p>
+      <p class="hashtag">#Antivirus</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.virustotal.com/gui/home/upload">VirtusTotal.com/</a>
+      <p>Permite analizar ficheros, paginas y analizar una IP.</p>
+      <p class="hashtag">#Antivirus</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://transparencyreport.google.com/safe-browsing/search">transparencyreport.google.com/</a>
+      <p>Pagina de Google que analiza una pagina web en busca de malware.</p>
+      <p class="hashtag">#Antivirus #Google</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.urlvoid.com">Urlvoid.com</a>
+      <p >No solo analiza la pagina si no que ademas nos analiza su reputacion.</p>
+      <p class="hashtag">#Antivirus</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://webcode.tools/">Webcode.tools</a>
+      <p  >Para saber la localización y reputación de una IP.</p>
+      <p class="hashtag">#IP #Localizacion</p>
+    </li>
+  </ol>
+
+  <!-- Seccion / Aplicaciones Web
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <hr class="separador">
+
+<div class="seccion"><h2 id="app_web" data-title="Herramientas web">Aplicaciones Web</h2></div>
+
+<ol class="box">
+  <li>
+    <a href="https://www.onlinedoctranslator.com/es/">Onlinedoctranslator.com/es/</a>
+    <p>Para traducir documentos a multiples idiomas. tambien permite convetir decoumentos PDF a Word, JPG etc.</p>
+    <p class="hashtag">#traductor #documentos #PDF #Ingles</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://www.powtoon.com">Powtoon.com</a>
+    <p>Herramienta web para crear presentaciones y videos cortos.</p>
+    <p class="hashtag">#presentaciones #crear #video</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://www.ilovepdf.com">Ilovepdf.com</a>
+    <p>Herramienta web para unir, separar, convertir, convertr a otro formato etc.</p>
+    <p class="hashtag">#PDF #editar #transformar #convertir #documentos #Formatos</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://www.formatpdf.com/">Formatpdf.com</a>
+    <p>Muchas formas de editar y procesar tus archivos PDF: comprimir, dividir, ordenar, girar, proteger o converitir a diferentes formatos..</p>
+    <p class="hashtag">#PDF #editar #transformar #convertir #documentos #PDF_editar</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://tinywow.com">Tinywow.com</a>
+    <p>Si necesitas editar PDF, comprimir video, convertir documentos y archivos entre formatos, tienes esta páginas web repleta de utilidades gratis online.</p>
+    <p class="hashtag">#PDF #editar #transformar #convertir #documentos #Formatos</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://megustainternet.com">Megustainternet.com</a>
+    <p>Blog con tutoriales, noticias, cursos sonbre programacion,aplicaciones,paginas etc.</p>
+    <p class="hashtag">#Blog #web #noticias #tutoriales #programacion </p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://videomentions.com/search">Videomentions.com</a>
+    <p>Herramienta gratuita que permite buscar palabras específicas dentro de los vídeos de YouTube.</p>
+    <p class="hashtag">#youtube #buscador #video #google </p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://www.unscreen.com/">Unscreen.com/</a>
+    <p>Elimina el fondo de una fotografia.</p>
+    <p class="hashtag">#Fondo_foto #Elimina_fondo_foto #fotografia</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://vocalremover.org">Vocalremover.org</a>
+    <p>Quita la voz de una cancion.</p>
+    <p class="hashtag">#Musica #Voz #Separa_voz #Quita_voz</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://ytmp3.mobi/es3/">Ytmp3.mobi/es3/</a>
+    <p>Descarga el audio o video de un video de Youtube.</p>
+    <p class="hashtag">#Youtube</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="http://www.estilector.com/">Ytmp3.mobi/es3/</a>
+    <p>Corrige tus faltas de ortografía.</p>
+    <p class="hashtag">#Faltas #ortografia #Texto #Corregir_texto</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://deepware.ai">Deepware.ai</a>
+    <p>Escanea un video y te dice si fue manipulado.</p>
+    <p class="hashtag">#video #Fake #videofake</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://www.erase.bg/">Erase.bg</a>
+    <p>Para eliminar el fondo de tus fotografías.</p>
+    <p class="hashtag">#remover #fondo #fotografia #quitar_fondo</p>
+  </li>
+</ol>
+
+
+
+
+  <!-- Seccion / Diseño
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <hr class="separador">
+
+  <div class="seccion"><h2 id="diseño" data-title="Enlaces a web relacionadas con el diseño de paginas o imagenes">Diseño</h2></div>
+
+  <ol class="box">
+    <li>
+      <a href="https://fonts.google.com/icons">Fonts.google.com/icons</a>
+      <p>Página de Google con iconos y fuentes.</p>
+      <p class="hashtag">#iconos #icon #web #html #fonts #google</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.fluid-type-scale.com">Fluid-type-scale.com</a>
+      <p>Puedes probar una gran variedad de fuentes para ver como quedarían en tu web.</p>
+      <p class="hashtag">#fuentes #fonts #web #html </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://icones.js.org">Icones.js.org</a>
+      <p>Cientos de iconos para tus proyectos.</p>
+      <p class="hashtag">#iconos #icon #web #html #diseño</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.favicon-generator.org">Favicon-generator.org</a>
+      <p>Para crear tus propios iconos.</p>
+      <p class="hashtag">#iconos #icon #web #html </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.flaticon.com">Flaticon.com</a>
+      <p>Web para bajar cientos de iconos en PNG o SVG para tu web.</p>
+      <p class="hashtag">#iconos #icon #web #html #svg</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://uiverse.io">Uiverse.io</a>
+      <p>Botones, tarjetas, input, mensajes de carga, etc. Todo para copiar y poner en tu página web.</p>
+      <p class="hashtag">#CSS #botones #web #html #button</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://t3mpl.n4no.com">T3mpl.n4no.com</a>
+      <p>Editor de plantillas genéricas para sitios web con algunos ejemplos editables. A cualquier #webmaster le puede solucionar un trabajillo.</p>
+      <p class="hashtag">#Web #HTML #Descarga_web #paginas </p>
+    </li>
+  </ol>
+
+
+
+  <!-- Seccion / Compartir
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <hr class="separador">
+
+  <div class="seccion"><h2 id="compartir" data-title="Para compartir ficheros a traves de la red">Compartir</h2></div>
+
+
+  <ol class="box">
+    <li>
+      <a href="https://wormhole.app">Wormhole.app</a>
+      <p >Wormhole, para enviar archivos de forma segura por Internet..</p>
+      <p class="hashtag">#enviar #compatir #archivos </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://misty-meadow-6745.on.fleek.co/">Misty-meadow-6745.on.fleek.co/</a>
+      <p >Para compartir archivos sin límites. Si subes varios archivos los comprime en formato ZIP y te da un enlace de descarga para pasárselo a quien quieras.</p>
+      <p class="hashtag">#enviar #compatir #archivos #Sin_limite </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.transferfile.io/">Transferfile.io/</a>
+      <p >Para compartir archivos de hasta 32 GB usando el protocolo IPFS.</p>
+      <p class="hashtag">#enviar #compatir #archivos #IPFS</p>
+    </li>
+  </ol>
+
+  <!-- Claves ––––––––––––––––– -->
+  <hr class="separador">
+
+  <ol class="box">
+    <li>
+      <a href="https://revealit.me">Revealit.me</a>
+      <p >Para compartir una clave mediante un enlace de un solo uso. Pegas la clave, mandas el enlace y sé borrar al abrirlo.</p>
+      <p class="hashtag">#enviar #compatir #claves  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://privnote.com">Privnote.com</a>
+      <p >Para compartir clave igual que Revealit. Esta herramienta te da más opciones y es algo más compleja de usar.</p>
+      <p class="hashtag">#enviar #compatir #claves  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://yopass.se">Yopass.se</a>
+      <p >Otra alternativa más. Este permite instalarlo en tu servidor. Cuenta con repositorio en Github.</p>
+      <p class="hashtag">#enviar #compatir #claves  </p>
+    </li>
+  </ol>
+
+
+  <!-- Seccion / Microsoft
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <hr class="separador">
+
+  <div class="seccion"><h2 id="Utilidades" data-title="Paginas relacionadas con los productos de Microsoft">Utilidades</h2></div>
+
+  <ol class="box">
+    <li>
+      <a href="https://tb.rg-adguard.net/public.php">Tb.rg-adguard.net</a>
+      <p  >Descarga todas las versiones y actualizaciones de Windows.</p>
+      <p class="hashtag">#Windows #Microsoft #Update #Windows10  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://uupdump.net">Uupdump.net</a>
+      <p  >Descarga actualizaciones de Windows 10, 11 y Server.</p>
+      <p class="hashtag">#Windows #Microsoft #Update #Windows10 #Windows11 #windows_server </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.catalog.update.microsoft.com/Home.aspx">Catalog.update.microsoft.com</a>
+      <p  >Pagina oficial de Microsoft para la descarga de actualizaciones.</p>
+      <p class="hashtag">#Windows #Microsoft #Update #Windows10 #Windows11 #windows_server </p>
+    </li>
+  </ol>
+
+  <!-- Seccion / Telegram
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <hr class="separador">
+
+  <div class="seccion"><h2 id="telegram" data-title="Bots para telegram">Bots Telegram</h2></div>
+
+  <ol class="box">
+    <li>
+      <a href="https://t.me/QRgeneratorRobot">QRgeneratorRobot</a>
+      <p>Bot de telegram para para generar codigos QR.</p>
+      <p class="hashtag">#QR #Bot #telegram</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://t.me/mailableBot">MailableBot</a>
+      <p>Bot de Telegram para crear una dirección de correo desechable (varios dominios para elegir). Recibirás los correos en el propio Telegram y podrás eliminar la dirección cuando quieras. .</p>
+      <p class="hashtag">#Mail #Bot #telegram #Alias</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://t.me/TypographicBot">https://t.me/TypographicBot</a>
+      <p>Bot de Telegram donde enviado una palabra o frase este lo devuelve con diferentes estilos y tipografias.</p>
+      <p class="hashtag">#texto_bot #Bot #telegram </p>
+    </li>
+  </ol>
+
+
+
+  <!-- Seccion / Blogs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <hr class="separador">
+
+  <div class="seccion"><h2 id="blogs" data-title="Blogs relacionadps con la informatica">Blogs</h2></div>
+
+  <ol class="box">
+    <li>
+      <a href="https://derechodelared.com">Derechodelared.com</a>
+      <p>Blog con noticias relacionadas con la seguridad informática.</p>
+      <p class="hashtag">#blog #seguridad #Noticiasseguridad #noticias </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.zeppelinux.es">Zeppelinux.es</a>
+      <p>Blog de tecnologia.</p>
+      <p class="hashtag">#Blog #Tecnologia</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://ugeek.github.io">Ugeek.github.io</a>
+      <p>Blog sobre linux.</p>
+      <p class="hashtag">#Blog #linux</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://rpi.uroboros.es">Rpi.uroboros.es</a>
+      <p>Blog con tutoriales para la Raspberry Pi.</p>
+      <p class="hashtag">#Raspberrypi</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://geekland.eu">Geekland.eu</a>
+      <p>Blog sobre Linux, Windows, Raspberry Pi etc.</p>
+      <p class="hashtag">#Raspberrypi #Windows #Linux</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://hijosdeinit.gitlab.io">Hijosdeinit.gitlab.io</a>
+      <p>Software libre, Linux, tecnologia.</p>
+      <p class="hashtag">#Software_libre #Windows #Linux</p>
+    </li>
+  </ol>
+
+  <!-- Seccion / Descargas / Peliculas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <hr class="separador">
+
+  <div class="seccion"><h2 id="descargas" data-title="Descarga de juegos, peliculas etc">Descargas</h2></div>
+
+  <ol class="box">
+    <li>
+      <a href="https://pivigames.blog">Pivigames.blog</a>
+      <p>Para bajar juegos de ordenador.</p>
+      <p class="hashtag">#juegosPC #pc #descarga #juegos </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.retroarch.com">Retroarch.com</a>
+      <p  >Emulador de juegos retro para Android, Linux y Windows.</p>
+      <p class="hashtag">#juegos_retro #pc #descarga #juegos #Retro </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.zona-leros.net">Zona-leros.net</a>
+      <p>Otra pagina para bajar juegos de ordenador y diferentes plataformas.</p>
+      <p class="hashtag">#juegosPC #pc #descarga #juegos </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.artistapirata.com">Artistapirata.com</a>
+      <p>Descarga de aplicaciones en general, sobre todo de diseño grafico.</p>
+      <p class="hashtag">#diseñografico #diseño #aplicaciones #descargadirecta </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://grantorrent.si">Grantorrent.si</a>
+      <p>Descarga de peliculas y series.</p>
+      <p class="hashtag">#Series #Peliculas #Torrent #DescargaPeliculas</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://rojotorrent.com">Rojotorrent.com</a>
+      <p>Otra web para descarga peliculas y series.</p>
+      <p class="hashtag">#Series #Peliculas #Torrent #DescargaPeliculas</p>
+    </li>
+  </ol>
+
+  <!-- Seccion / Otros
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="seccion"><h2 id="otros" data-title="">Otros</h2></div>
+
+  <ol class="box">
+    <li>
+      <a href="https://app.anonaddy.com/">App.anonaddy.com/</a>
+      <p> Es un servicio de reenvío de correos cuyo objetivo es que no tengas que dar tu verdadera dirección de correo para registrarte en diferentes servicios que, seguramente, solo quieres probar.
+      Cierto que para registrarte tienes que dar otro email pero a cambio obtienes un panel de control para crear y eliminar alias y configurar el reenvío.</p>
+      <p class="hashtag">#Reenvio #Alias #Correo </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://infolibros.org">Infolibros.org</a>
+      <p>Una gran cantidad de libros (pdf,  fundamentalmente) ordenados por temas..</p>
+      <p class="hashtag">#libros #Epub #Descarga_libros  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://pdfcookie.com/">Pdfcookie.com/</a>
+      <p>Otro sitio para encontrar documentos y libros en PDF.</p>
+      <p class="hashtag">#libros #Epub #Descarga_libros  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://contraculturacyberpunk.blogspot.com/p/index.html">Contraculturacyberpunk</a>
+      <p>Todo lo que siempre quisiste saber sobre contracultura en Internet, movimiento cyberpunk y cultura hacker pero nunca te atreviste a preguntar.</p>
+      <p class="hashtag">#Blog #Cultura #CyberPunk</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://proqr.co/">Proqr.co/</a>
+      <p>para crear codigos QR para compartir un texto, enlace, Wifi etc.</p>
+      <p class="hashtag">#QR #Generador_QR </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="http://buscadoravanzado.com/comando-site">Buscadoravanzado.com</a>
+      <p>Te enseña a buscar en Google o otro buscadores con ejemplos</p>
+      <p class="hashtag">#Buscador #google </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://theuselessweb.com/">Theuselessweb.com/</a>
+      <p>Cada vez que pulsas el botón te lleva a una web diferente</p>
+      <p class="hashtag"></p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="http://telodoy.net/indice.php">Telodoy.net</a>
+      <p>Web donde la gente regala cosas que ya no quieren</p>
+      <p class="hashtag">#regalo #objetos</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://desenmascara.me">Desenmascara.me</a>
+      <p>Nos ayuda a saber si una web es segura para comprar.</p>
+      <p class="hashtag">#compras #shop #tienda</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://lexica.art/">Lexica.art</a>
+      <p>Buscador de imágenes generadas por una IA.</p>
+      <p class="hashtag">#IA #Imagenes </p>
+    </li>
+  </ol>
+
+  <!-- Streaming ––––––– -->
+
+  <ol class="box">
+    <li>
+      <a href="https://pluto.tv/es/live-tv/doctor-who-es">Plutotv.com/</a>
+      <p> Sin necesidad de registrarte, puedes ver cientos de peliculas y series.</p>
+      <p class="hashtag">#Peliculas #series #Streaming</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.plex.tv">Plutotv.com/</a>
+      <p>Cuenta con peliculas y canales de TV.</p>
+      <p class="hashtag">#Peliculas #series #Streaming #TV</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.crunchyroll.com/es/videos/anime">Crunchyroll.com</a>
+      <p>Series de anime gratuitas y de pago</p>
+      <p class="hashtag">#Peliculas #series #Streaming #anime</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://moviesjoy.one/home">Moviesjoy.one</a>
+      <p>Series y peliculas en version original subtituladas. Tambien podemos encontrar peliculas y series de España y otros paises.</p>
+      <p class="hashtag">#Peliculas #series #Streaming #VO</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://myemulator.online">Myemulator.online</a>
+      <p>Juega a juegos de Mega Drive, Super Nintendo, Nintendo DS y mucho mas desde el navegador.</p>
+      <p class="hashtag">#juegos_navegador #juegos #Emuladores #Navegador #games </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.letsplaysega.com">Letsplaysega.com</a>
+      <p>Juega a juegos de Mega Drive desde el navegador.</p>
+      <p class="hashtag">#juegos_navegador #juegos #Emuladores #Navegador #Megadrive </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="http://www.ps1fun.com">Ps1fun.com</a>
+      <p>Juega a juegos de PlayStation desde el navegador.</p>
+      <p class="hashtag">#juegos_navegador #juegos #Emuladores #Navegador #PlayStation</p>
     </li>
   </ol>
 
 </section>
 
-<!-- Diseño
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Footer
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<section class="section">
-<h2 class="title_section">Diseño.</h2>
-<p>Fuentes,iconos,fondos recuersos para paginas web.</p>
-
-  <ol class="extension">
-    <li>
-      <a href="https://haveibeenpwned.com/">Haveibeenpwned.com</a>
-      <p>Página donde podrás ver si tu correo/contraseña ha sido filtrada por internet.</p>
-      <p class="hashtag">#robo #clave #contraseña #filtrada #correo</p>
-    </li>
-  </ol>
-
-  <ol class="extension">
-    <li>
-      <a href="https://haveibeenpwned.com/">Haveibeenpwned.com</a>
-      <p>Página donde podrás ver si tu correo/contraseña ha sido filtrada por internet.</p>
-      <p class="hashtag">#robo #clave #contraseña #filtrada #correo</p>
-    </li>
-  </ol>
-
-</section>
-
+</body>
 <footer>
   <p>Ultima actualizacion 13/08/2022</p>
 </footer>
