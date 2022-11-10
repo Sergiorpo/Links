@@ -11,7 +11,7 @@ body{
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
-  background-color: #000000;
+  background-color: #ecf0f9;
   color: #b6becd;
 }
 
@@ -31,7 +31,8 @@ p::selection{
 }
 
 a{
-  color: white;
+  color: black;
+  font-weight: bold;
   text-decoration: none;
   background-image: linear-gradient(#f8dd62, #f8dd62);
   background-position: 0% 100%;
@@ -39,14 +40,14 @@ a{
   background-size: 0% 2px;
   transition: background-size .3s;
 }
-a:hover{
-
+a:hover::first-letter{
+  color: #c2cfe1;
 }
 
 a:hover, a:focus {
     background-size: 100% 2px;
     border-radius: 10px 10px 10px 10px;
-    background-color: #181819;
+    background-color: #8d8e8e;
     padding: 1%;
     color: white;
 }
@@ -66,9 +67,9 @@ a:hover, a:focus {
   font-style: normal;
   text-align: center;
   font-size: 1.4vh;
-
   box-sizing: border-box;
   position: center;
+  color: #898989;
 }
 
 .avatar {
@@ -89,15 +90,15 @@ a:hover, a:focus {
   padding-top: 1%;
   width: 790px;
   max-width: 100%;
-  color: white;
+  color: black;
 }
 
 .menu select  {
   width: 150px;
   height: 40px;
-  color: white;
-  background-color: black;
-  border: 2px solid #181819;
+  color: black;
+  background-color: white;
+  border: 2px solid #c6c8c9;
   border-radius: 15px;
   transition: all 0.25s ease;
   cursor: pointer;
@@ -105,21 +106,29 @@ a:hover, a:focus {
 }
 
 .menu select:hover{
-  background-color: #181819;
+  background-color: white;
   border: 2px solid white;
   transition: all 0.5s ease;
   width: 250px;
+  box-shadow:
+  0px 1px 1.2px rgba(0, 0, 0, 0.028),
+  0px 2.4px 2.9px rgba(0, 0, 0, 0.04),
+  0px 4.5px 5.7px rgba(0, 0, 0, 0.05),
+  0px 8px 10.5px rgba(0, 0, 0, 0.06),
+  0px 15px 20px rgba(0, 0, 0, 0.072),
+  0px 36px 48px rgba(0, 0, 0, 0.1);
 }
 
 .section{
   position: relative;
-  max-width: 760px;
+  width: 98%;
+  max-width: 900px;
+  min-width: 390px;
   text-align: left;
   margin: auto;
   padding: 0 10px;
   box-sizing: border-box;
   position: center;
-  width: 98%;
   float: center;
   box-sizing: border-box;
 }
@@ -131,35 +140,48 @@ a:hover, a:focus {
   padding-top: 5%;
   width: 800px;
   max-width: 98%;
-  color: white;
+  color: black;
 }
 
 .seccion h2::first-letter {
-  border-bottom: 3px solid #f6c165;
+  border-bottom: 3px solid #638eba;
   font-size: 23px;
-  color: #fef3e1;
+  color: #638eba;
 }
 
 .box{
   padding: 19px 10px 10px 25px;
-  background: white;
-  background-color: #181819;
+  background-color: #ffffff;
   border-radius: 13px 13px 13px 13px;
   list-style: none;
-  margin-bottom: 1.6%;
-  color:white;
+  margin-bottom: 5%;
+  color:black;
+  box-shadow:
+  0px 1px 1.2px rgba(0, 0, 0, 0.028),
+  0px 2.4px 2.9px rgba(0, 0, 0, 0.04),
+  0px 4.5px 5.7px rgba(0, 0, 0, 0.05),
+  0px 8px 10.5px rgba(0, 0, 0, 0.06),
+  0px 15px 20px rgba(0, 0, 0, 0.072),
+  0px 36px 48px rgba(0, 0, 0, 0.1);
 }
 
 
 .box:hover{
-  background-color:#4e62ff;
+  background-color: #bce7fe;
+  box-shadow:
+  0px 1.5px 2.9px -35px rgba(0, 0, 0, 0.028),
+  0px 3.5px 7.3px -35px rgba(0, 0, 0, 0.04),
+  0px 6.6px 14.1px -35px rgba(0, 0, 0, 0.05),
+  0px 11.8px 25.9px -35px rgba(0, 0, 0, 0.06),
+  0px 22.1px 49.5px -35px rgba(0, 0, 0, 0.072),
+  0px 53px 119px -35px rgba(0, 0, 0, 0.1);
 }
 
 
 .hashtag {
   margin-bottom: 2%;
   font-size: 13px;
-  color: #4e62ff;
+  color: #009ff5;
   font-size: 10px;
 }
 
