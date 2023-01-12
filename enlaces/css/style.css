@@ -34,7 +34,7 @@ a{
   color: black;
   font-weight: bold;
   text-decoration: none;
-  background-image: linear-gradient(#f8dd62, #f8dd62);
+  background-image: linear-gradient(#ff7777, #f69393);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
@@ -47,11 +47,19 @@ a:hover::first-letter{
 a:hover, a:focus {
   background-size: 100% 2px;
   border-radius: 10px 10px 10px 10px;
-  background-color: #8d8e8e;
+  background-color: white;
   padding: 1%;
-  color: white;
-  font-weight:normal;
+  color: black;
+  font-weight: normal;
+  box-shadow:
+  0px 1px 1.2px rgba(0, 0, 0, 0.028),
+  0px 2.4px 2.9px rgba(0, 0, 0, 0.04),
+  0px 4.5px 5.7px rgba(0, 0, 0, 0.05),
+  0px 8px 10.5px rgba(0, 0, 0, 0.06),
+  0px 15px 20px rgba(0, 0, 0, 0.072),
+  0px 36px 48px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Estructura */
 
