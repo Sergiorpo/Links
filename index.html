@@ -1,58 +1,965 @@
-<!-- Index  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- Enlaces - Beta  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>No Solo Links</title>
+  <title>Enlaces</title>
   <meta name="description" content="Find us online!">
   <meta name="author" content="Seth Cottle">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="./img/avatar.jpg">
+  <link rel="shortcut icon" href="../img/04.png">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- Fuentes  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="./css/index_style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/efectos.css">
+
+  <meta name="theme-color" content="319197">
 </head>
   <!-- Body / Estructura
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <body>
-    <section class="title">
-      <div class="avatar"></div>
-      <h2>No Solo Enlaces</h2>
-    </section>
-    <div class="separador"></div>
-<section class="section">
+<body>
+
+  <!-- Avatar / Titulo
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section class="title" >
+    <div class="avatar"></div>
+    <p>Paginas recomendas clasificadas por categorias como herramientas, seguridad, descargas etc. La descripcion incluye una serie de #hastag que facilita la busqueda.</p>
+  </section>
 
   <!-- Menu
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <div class="menu" >
   <select onchange="window.location=this.value">
-    <option value="">Menu.</option>
-    <option value="./enlaces/index.html">Webs recomendadas</option>
-    <option value="./extensiones/index.html">Extensiones navegador</option>
-    <option value="./aplicaciones/index.html">Aplicaciones</option>
-    <option value="index.html#app_web">Tutoriales</option>
+    <option value="index.html">Menu..</option>
+    <option value="index.html#seguridad">Seguridad</option>
+    <option value="index.html#app_web">Aplicaciones Web</option>
+    <option value="index.html#diseño">Diseño</option>
+    <option value="index.html#compartir">Compartir</option>
+    <option value="index.html#blogs">Blogs</option>
+    <option value="index.html#Descargas">Descargas</option>
+    <option value="index.html#otros">Otros</option>
+    <option value="index.html#telegram">Telegram</option>
+    <option value="index.html#aplicaciones">Aplicaciones</option>
+    <option value="index.html#extensiones">Extensiones</option>
   </select>
 </div>
 
+  <!-- Seccion / Seguridad
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<!-- Noticias
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section class="section">
+<div class="seccion"><h2 id="seguridad" data-title="Paginas relacionadas con la seguridad">Seguridad</h2>
+  <p>Esta sección podría incluir enlaces a recursos relacionados con la seguridad en línea, como herramientas de cifrado, antivirus, software de protección de datos, consejos de seguridad en línea, y cualquier otro recurso que ayude a los usuarios a mantener su información y privacidad en línea seguras.</p>
+</div>
 
-  <ol class="noticia">
+  <ol class="box">
     <li>
-      <p>26/12/2022</p>
-      <p>Que son y como se usan las Google Dorks.</p>
-      <a href="#">Leer más...</a>
+      <a href="https://haveibeenpwned.com">Haveibeenpwned</a>
+      <p>Página donde podrás ver si tu correo/contraseña ha sido filtrada por internet.</p>
+      <p class="hashtag">#robo #clave #contraseña #filtrada #correo</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://passwords.google.com/checkup/start?ep=1&pr=pwm&pli=1">Passwords.google</a>
+      <p class="resumen">Web de Google para comprobar si tu clave fue filtrada.</p>
+      <p class="hashtag">#robo #clave #contraseña #filtrada #correo #Google</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://phishcheck.me">Phishcheck</a>
+      <p>PhishCheck, una página web para comprobar si es phishing o no.</p>
+      <p class="hashtag">#web #seguridad #phishing  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://themarkup.org/blacklight">Themarkup.org/blacklight</a>
+      <p>Blacklight. Introduce una dirección web y te muestra los rastreadores de datos que pueda tener, así como a quién se le entregan esos datos.</p>
+      <p class="hashtag">#rastreadores #rastreadores_web #datos  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://metadefender.opswat.com/">metadefender</a>
+      <p>Antivirus Online. Sube un fichero y lo analiza en busca de virus. La versión gratuita permite subir archivos de hasta 140 MB.</p>
+      <p class="hashtag">#Antivirus</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.virustotal.com/gui/home/upload">VirtusTotal</a>
+      <p>Analiza ficheros en busca de virus y aparte puede analizar una URL para comprobar si es maliciosa..</p>
+      <p class="hashtag">#Antivirus #Malware #URL</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="http://urlvoid.com/">URLVoid</a>
+      <p>Pagina bastante popular que utiliza diferentes motores para analizar una URL para indicar si es segura o no.</p>
+      <p class="hashtag">#Antivirus #Malware #URL</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="http://scanurl.net/">Scanurl</a>
+      <p>Otra pagina web que analiza una URL. En este caso se apoya en el uso de servicios de terceros como Google safe browsing diagnostic, Phish Tan.</p>
+      <p class="hashtag">#scanerurl #URL #malware #navegador </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.phishtank.org/">Phishtank</a>
+      <p>Sitio colaborativo de datos e información sobre phishing en Internet.</p>
+      <p class="hashtag">#Phishing #informacion.</p>
     </li>
   </ol>
 
 
+  <ol class="box">
+    <li>
+      <a href="https://transparencyreport.google.com/safe-browsing/search">transparencyreport Google</a>
+      <p>Pagina de Google que analiza una pagina web en busca de malware.</p>
+      <p class="hashtag">#Antivirus #Google</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.urlvoid.com">Urlvoid</a>
+      <p >No solo analiza la pagina si no que ademas nos analiza su reputacion.</p>
+      <p class="hashtag">#Antivirus</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://webcode.tools/">Webcode Tools</a>
+      <p  >Para saber la localización y reputación de una IP.</p>
+      <p class="hashtag">#IP #Localizacion</p>
+    </li>
+  </ol>
+
+
+
+  <!-- Seccion / Aplicaciones Web
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="seccion"><h2 id="app_web" data-title="Herramientas web">Aplicaciones Web</h2>
+<p>Esta sección podría incluir enlaces a aplicaciones web útiles para diferentes propósitos, como aplicaciones para edición de fotos, herramientas de gestión de proyectos, herramientas de productividad, editores de PDF, entre otras.</p>
+</div>
+
+<ol class="box">
+  <li>
+    <a href="https://www.lalal.ai">Lalal.ai</a>
+    <p>Herramienta web que nos permite separar/eliminar la voz de un audio de forma rapida y facil.</p>
+    <p class="hashtag">#Audio #Elimina #separa #cancion</p>
+  </li>
+</ol>
+
+
+<ol class="box">
+  <li>
+    <a href="https://www.onlinedoctranslator.com/es/">Onlinedoctranslator.com/es/</a>
+    <p>Para traducir documentos a multiples idiomas. tambien permite convetir decoumentos PDF a Word, JPG etc.</p>
+    <p class="hashtag">#traductor #documentos #PDF #Ingles</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://www.powtoon.com">Powtoon.com</a>
+    <p>Herramienta web para crear presentaciones y videos cortos.</p>
+    <p class="hashtag">#presentaciones #crear #video</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://www.ilovepdf.com">Ilovepdf.com</a>
+    <p>Herramienta web para unir, separar, convertir, convertr a otro formato etc.</p>
+    <p class="hashtag">#PDF #editar #transformar #convertir #documentos #Formatos</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://www.formatpdf.com/">Formatpdf.com</a>
+    <p>Muchas formas de editar y procesar tus archivos PDF: comprimir, dividir, ordenar, girar, proteger o converitir a diferentes formatos..</p>
+    <p class="hashtag">#PDF #editar #transformar #convertir #documentos #PDF_editar</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://tinywow.com">Tinywow.com</a>
+    <p>Si necesitas editar PDF, comprimir video, convertir documentos y archivos entre formatos, tienes esta páginas web repleta de utilidades gratis online.</p>
+    <p class="hashtag">#PDF #editar #transformar #convertir #documentos #Formatos</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://megustainternet.com">Megustainternet.com</a>
+    <p>Blog con tutoriales, noticias, cursos sonbre programacion,aplicaciones,paginas etc.</p>
+    <p class="hashtag">#Blog #web #noticias #tutoriales #programacion </p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://videomentions.com/search">Videomentions.com</a>
+    <p>Herramienta gratuita que permite buscar palabras específicas dentro de los vídeos de YouTube.</p>
+    <p class="hashtag">#youtube #buscador #video #google </p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://www.unscreen.com/">Unscreen.com/</a>
+    <p>Elimina el fondo de una fotografia.</p>
+    <p class="hashtag">#Fondo_foto #Elimina_fondo_foto #fotografia</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://vocalremover.org">Vocalremover.org</a>
+    <p>Quita la voz de una cancion.</p>
+    <p class="hashtag">#Musica #Voz #Separa_voz #Quita_voz</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://ytmp3.mobi/es3/">Ytmp3.mobi/es3/</a>
+    <p>Descarga el audio o video de un video de Youtube.</p>
+    <p class="hashtag">#Youtube</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="http://www.estilector.com/">Ytmp3.mobi/es3/</a>
+    <p>Corrige tus faltas de ortografía.</p>
+    <p class="hashtag">#Faltas #ortografia #Texto #Corregir_texto</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://deepware.ai">Deepware.ai</a>
+    <p>Escanea un video y te dice si fue manipulado.</p>
+    <p class="hashtag">#video #Fake #videofake</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://www.erase.bg/">Erase.bg</a>
+    <p>Para eliminar el fondo de tus fotografías.</p>
+    <p class="hashtag">#remover #fondo #fotografia #quitar_fondo</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://songdonkey.ai">Songdonkey</a>
+    <p>Herramienta gratuita para separar la parte vocal y instrumental de una canción.</p>
+    <p class="hashtag">#Voz #Musica #Separar</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://compressimage.io/">Compressimage.io</a>
+    <p>Aquí podremos comprimir nuestras imágenes JPG y PNG para que ocupen menos.</p>
+    <p class="hashtag">#Comprimir #JPG #PNG #Imagenes</p>
+  </li>
+</ol>
+
+  <!-- Seccion / Diseño
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="seccion"><h2 id="diseño" data-title="Enlaces a web relacionadas con el diseño de paginas o imagenes">Diseño</h2>
+  <p>Esta sección podría incluir enlaces a recursos de diseño web, como tutoriales, plantillas, fuentes, herramientas de diseño gráfico, y cualquier otro recurso que ayude a los usuarios a diseñar y crear sitios web y presentaciones.</p>
+  </div>
+
+  <ol class="box">
+    <li>
+      <a href="https://fonts.google.com/icons">Fonts.google.com/icons</a>
+      <p>Página de Google con iconos y fuentes.</p>
+      <p class="hashtag">#iconos #icon #web #html #fonts #google</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.fluid-type-scale.com">Fluid-type-scale.com</a>
+      <p>Puedes probar una gran variedad de fuentes para ver como quedarían en tu web.</p>
+      <p class="hashtag">#fuentes #fonts #web #html </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://icones.js.org">Icones.js.org</a>
+      <p>Cientos de iconos para tus proyectos.</p>
+      <p class="hashtag">#iconos #icon #web #html #diseño</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.favicon-generator.org">Favicon-generator.org</a>
+      <p>Para crear tus propios iconos.</p>
+      <p class="hashtag">#iconos #icon #web #html </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.flaticon.com">Flaticon.com</a>
+      <p>Web para bajar cientos de iconos en PNG o SVG para tu web.</p>
+      <p class="hashtag">#iconos #icon #web #html #svg</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://uiverse.io">Uiverse.io</a>
+      <p>Botones, tarjetas, input, mensajes de carga, etc. Todo para copiar y poner en tu página web.</p>
+      <p class="hashtag">#CSS #botones #web #html #button</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://t3mpl.n4no.com">T3mpl.n4no.com</a>
+      <p>Editor de plantillas genéricas para sitios web con algunos ejemplos editables. A cualquier #webmaster le puede solucionar un trabajillo.</p>
+      <p class="hashtag">#Web #HTML #Descarga_web #paginas </p>
+    </li>
+  </ol>
+
+
+
+  <!-- Seccion / Compartir
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="seccion"><h2 id="compartir" data-title="Para compartir ficheros a traves de la red">Compartir</h2>
+  <p>En esta sección podrías encontrar plataformas de intercambio de archivos, claves, herramientas de colaboración en línea, y cualquier otro recurso que permita a los usuarios compartir información y colaborar con otros en línea.</p>
+  </div>
+
+  <ol class="box">
+    <li>
+      <a href="https://blaze.vercel.app">Blaze.vercel.app</a>
+      <p >Blaze no es solo otra web donde puedes compartir archivos de forma segura. Blaze permite crear salas en las que puede hablar y compartir ficheros. Permite usarla desde cualquier navegador o dispositivo.</p>
+      <p class="hashtag">#enviar #compatir #archivos #Salas </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://wormhole.app">Wormhole.app</a>
+      <p >Wormhole, para enviar archivos de forma segura por Internet..</p>
+      <p class="hashtag">#enviar #compatir #archivos </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://misty-meadow-6745.on.fleek.co/">Misty-meadow-6745.on.fleek.co/</a>
+      <p >Para compartir archivos sin límites. Si subes varios archivos los comprime en formato ZIP y te da un enlace de descarga para pasárselo a quien quieras.</p>
+      <p class="hashtag">#enviar #compatir #archivos #Sin_limite </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.transferfile.io/">Transferfile.io/</a>
+      <p >Para compartir archivos de hasta 32 GB usando el protocolo IPFS.</p>
+      <p class="hashtag">#enviar #compatir #archivos #IPFS</p>
+    </li>
+  </ol>
+
+  <!-- Claves ––––––––––––––––– -->
+
+  <ol class="box">
+    <li>
+      <a href="https://revealit.me">Revealit.me</a>
+      <p >Para compartir una clave mediante un enlace de un solo uso. Pegas la clave, mandas el enlace y sé borrar al abrirlo.</p>
+      <p class="hashtag">#enviar #compatir #claves  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://privnote.com">Privnote.com</a>
+      <p >Para compartir clave igual que Revealit. Esta herramienta te da más opciones y es algo más compleja de usar.</p>
+      <p class="hashtag">#enviar #compatir #claves  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://yopass.se">Yopass.se</a>
+      <p >Otra alternativa más. Este permite instalarlo en tu servidor. Cuenta con repositorio en Github.</p>
+      <p class="hashtag">#enviar #compatir #claves  </p>
+    </li>
+  </ol>
+
+
+  <!-- Seccion / Descargas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="seccion"><h2 id="Descargas" data-title="Paginas relacionadas con los productos de Microsoft">Descargas</h2>
+  <p>En esta sección, encontrarás todo lo que necesitas saber para mantener tu información y tus dispositivos seguros.</p>
+  </div>
+
+  <ol class="box">
+    <li>
+      <a href="https://tb.rg-adguard.net/public.php">Tb.rg-adguard.net</a>
+      <p  >Descarga todas las versiones y actualizaciones de Windows.</p>
+      <p class="hashtag">#Windows #Microsoft #Update #Windows10  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://uupdump.net">Uupdump.net</a>
+      <p  >Descarga actualizaciones de Windows 10, 11 y Server.</p>
+      <p class="hashtag">#Windows #Microsoft #Update #Windows10 #Windows11 #windows_server </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.catalog.update.microsoft.com/Home.aspx">Catalog.update.microsoft.com</a>
+      <p  >Pagina oficial de Microsoft para la descarga de actualizaciones.</p>
+      <p class="hashtag">#Windows #Microsoft #Update #Windows10 #Windows11 #windows_server </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="http://sourceforge.net/">Sourceforge.net</a>
+      <p>Podemos decir que si, SourceForge.net es un sitio seguro para usar y descargar software. ¿Por qué? Porque SourceForge analiza cada uno de los proyectos de software de código abierto subidos dentro de su plataforma. Se encuentran asociados a Bitdefender, por lo que usan su tecnología para escanear todos los proyectos de código abierto.</p>
+      <p class="hashtag">#Software #programas</p>
+    </li>
+  </ol>
+
+
+  <ol class="box">
+    <li>
+      <a href="https://www.dprojects.org/index">Dprojects.org</a>
+      <p>Descarga de versiones de Windows reducidas quitando aplicaciones preinstaladas y recursos de sistema para agilizar el sistema.</p>
+      <p class="hashtag">#Windows #ISO #sistemaoperativo </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="www.Artistaspiratas.com">Artistasiratas.com</a>
+      <p>De las mejores web para descargar programas de pago. Destaca sobre todo por ofrecer la mayoria de las aplicaciones de Adobe.</p>
+      <p class="hashtag">#Adobe #Aplicaciones #Descarga </p>
+    </li>
+  </ol>
+
+
+  <!-- Seccion / Inteligencia Aritificial
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="seccion"><h2 id="IA" data-title="Bots para telegram">Inteligencia Artificial</h2>
+  <p>Esta sección podría incluir enlaces a recursos de diseño web, como tutoriales, plantillas, fuentes, herramientas de diseño gráfico, y cualquier otro recurso que ayude a los usuarios a diseñar y crear sitios web y presentaciones.</p>
+  </div>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.synthesia.io/">Synthesia.io</a>
+      <p>Pones el texto y esta herramienta se encargara de que una persona generada por inteligencia artificial lo lea como si de una persona de verdad se tratara.</p>
+      <p class="hashtag">#video_ia #ia</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.midjourney.com/home/">Midjourney.com</a>
+      <p>Esta IA es capaz de generar imagenes a partir de un texto.</p>
+      <p class="hashtag">#imagen #ia</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://letsenhance.io/">Letsenhance.io</a>
+      <p>Aumenta la resolucion de tus imagenes con IA.</p>
+      <p class="hashtag">#imagen #Resolucion #ia</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://chat.openai.com/auth/login">Chat GPT3</a>
+      <p> modelo de lenguaje de gran escala entrenado por OpenAI. Estoy diseñado para responder preguntas y realizar tareas en base a texto.</p>
+      <p class="hashtag">#chat #GPT3 #ia</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://chat.openai.com/auth/login">Chat GPT3</a>
+      <p> modelo de lenguaje de gran escala entrenado por OpenAI. Estoy diseñado para responder preguntas y realizar tareas en base a texto.</p>
+      <p class="hashtag">#chat #GPT3 #ia</p>
+    </li>
+  </ol>
+
+  <!-- Seccion / Blogs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="seccion"><h2 id="blogs" data-title="Blogs relacionadps con la informatica">Blogs</h2>
+  <p>En esta sección podrías incluir enlaces a blogs de diferentes temas, como tecnología, estilo de vida, negocios, noticias, y cualquier otro tema que pueda interesar a los usuarios.</p>
+  </div>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.flopy.es">Flopy.es</a>
+      <p>Blog con tutoriales/noticias relacionadas con la informatica, Windows y Linux.</p>
+      <p class="hashtag">#tutoriales #linux #windows #blog_windows #noticias </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://derechodelared.com">Derechodelared.com</a>
+      <p>Blog con noticias relacionadas con la seguridad informática.</p>
+      <p class="hashtag">#blog #seguridad #Noticiasseguridad #noticias </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.zeppelinux.es">Zeppelinux.es</a>
+      <p>Blog de tecnologia.</p>
+      <p class="hashtag">#Blog #Tecnologia</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://ugeek.github.io">Ugeek.github.io</a>
+      <p>Blog sobre linux.</p>
+      <p class="hashtag">#Blog #linux</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://rpi.uroboros.es">Rpi.uroboros.es</a>
+      <p>Blog con tutoriales para la Raspberry Pi.</p>
+      <p class="hashtag">#Raspberrypi</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://geekland.eu">Geekland.eu</a>
+      <p>Blog sobre Linux, Windows, Raspberry Pi etc.</p>
+      <p class="hashtag">#Raspberrypi #Windows #Linux</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://hijosdeinit.gitlab.io">Hijosdeinit.gitlab.io</a>
+      <p>Software libre, Linux, tecnologia.</p>
+      <p class="hashtag">#Software_libre #Windows #Linux</p>
+    </li>
+  </ol>
+
+
+  <!-- Seccion / Otros
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="seccion"><h2 id="otros" data-title="">Otros</h2>
+  <p>Esta sección podría incluir enlaces a recursos en línea que no se ajustan a ninguna de las otras secciones, como juegos en línea, sitios de entretenimiento, recursos educativos, y cualquier otro recurso en línea que los usuarios puedan encontrar útil o interesante.</p>
+  </div>
+
+  <ol class="box">
+    <li>
+      <a href="https://es.javascript.info">Javascript.info</a>
+      <p> Curso completo,gratuito y en Español  de Javascript.</p>
+      <p class="hashtag">#Javascript #Curso #Programacion </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://arthub.ai">Arthub.ai</a>
+      <p>Comunidad para compartir tu obras generadas por IA</p>
+      <p class="hashtag">#imagenes #IA #obras</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://app.anonaddy.com/">App.anonaddy.com/</a>
+      <p> Es un servicio de reenvío de correos cuyo objetivo es que no tengas que dar tu verdadera dirección de correo para registrarte en diferentes servicios que, seguramente, solo quieres probar.
+      Cierto que para registrarte tienes que dar otro email pero a cambio obtienes un panel de control para crear y eliminar alias y configurar el reenvío.</p>
+      <p class="hashtag">#Reenvio #Alias #Correo </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://infolibros.org">Infolibros.org</a>
+      <p>Una gran cantidad de libros (pdf,  fundamentalmente) ordenados por temas..</p>
+      <p class="hashtag">#libros #Epub #Descarga_libros  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://pdfcookie.com/">Pdfcookie.com/</a>
+      <p>Otro sitio para encontrar documentos y libros en PDF.</p>
+      <p class="hashtag">#libros #Epub #Descarga_libros  </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://contraculturacyberpunk.blogspot.com/p/index.html">Contraculturacyberpunk</a>
+      <p>Todo lo que siempre quisiste saber sobre contracultura en Internet, movimiento cyberpunk y cultura hacker pero nunca te atreviste a preguntar.</p>
+      <p class="hashtag">#Blog #Cultura #CyberPunk</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://proqr.co/">Proqr.co/</a>
+      <p>para crear codigos QR para compartir un texto, enlace, Wifi etc.</p>
+      <p class="hashtag">#QR #Generador_QR </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="http://buscadoravanzado.com/comando-site">Buscadoravanzado.com</a>
+      <p>Te enseña a buscar en Google o otro buscadores con ejemplos</p>
+      <p class="hashtag">#Buscador #google </p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://theuselessweb.com/">Theuselessweb.com/</a>
+      <p>Cada vez que pulsas el botón te lleva a una web diferente</p>
+      <p class="hashtag"></p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="http://telodoy.net/indice.php">Telodoy.net</a>
+      <p>Web donde la gente regala cosas que ya no quieren</p>
+      <p class="hashtag">#regalo #objetos</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://desenmascara.me">Desenmascara.me</a>
+      <p>Nos ayuda a saber si una web es segura para comprar.</p>
+      <p class="hashtag">#compras #shop #tienda</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://lexica.art/">Lexica.art</a>
+      <p>Buscador de imágenes generadas por una IA.</p>
+      <p class="hashtag">#IA #Imagenes </p>
+    </li>
+  </ol>
+
+  <!-- Streaming ––––––– -->
+
+  <ol class="box">
+    <li>
+      <a href="https://pluto.tv/es/live-tv/doctor-who-es">Plutotv.com/</a>
+      <p> Sin necesidad de registrarte, puedes ver cientos de peliculas y series.</p>
+      <p class="hashtag">#Peliculas #series #Streaming</p>
+    </li>
+  </ol>
+
+
+  <ol class="box">
+    <li>
+      <a href="https://www.crunchyroll.com/es/videos/anime">Crunchyroll.com</a>
+      <p>Series de anime gratuitas y de pago</p>
+      <p class="hashtag">#Peliculas #series #Streaming #anime</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://moviesjoy.one/home">Moviesjoy.one</a>
+      <p>Series y peliculas en version original subtituladas. Tambien podemos encontrar peliculas y series de España y otros paises.</p>
+      <p class="hashtag">#Peliculas #series #Streaming #VO</p>
+    </li>
+  </ol>
+
+
+  <!-- Seccion / Bot Telegram
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="seccion"><h2 id="telegram" data-title="">Bots Telegram</h2>
+  <p>Bots de Telegram útiles para diferentes propósitos, como bots para la productividad, bots para el entretenimiento, bots para la educación, entre otros. Los usuarios pueden utilizar estos bots para recibir información, automatizar tareas y obtener respuestas a preguntas comunes.</p>
+  </div>
+
+
+
+  <!-- Seccion / Aplicaciones
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="seccion"><h2 id="aplicaciones" data-title="">Aplicaciones</h2>
+  <p>Esta sección ofrece aplicaciones para computadoras con sistema operativo Windows que sean útiles para diferentes propósitos, como aplicaciones de productividad, software de edición de vídeo, herramientas de optimización del sistema y software de seguridad. Los usuarios pueden encontrar aplicaciones que les ayuden a mejorar su experiencia de uso de Windows.</p>
+  </div>
+
+  <ol class="box">
+    <li>
+        <a href="https://www.nirsoft.net/utils/wireless_key.html">Wireless Key</a>
+        <p>Permite extraer las claves WiFi almacenadas en nuestro equipo</p>
+        <p class="hashtag">#Seguridad #WiFi #Redes</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://rustdesk.com/">RustDesk</a>
+        <p>Alternativa abierta y gratuita a TeamViewer</p>
+        <p class="hashtag">#Software #EscritorioRemoto #TrabajoRemoto</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://trinityhome.org/trinity_rescue_kit_download/">Trinity Rescue Kit</a>
+        <p>Permite restablecer contraseñas usando Winpass, soporte escritura NTFS, utilidad para borrar ficheros innecesarios, utilidad de recuperación de copias de archivos</p>
+        <p class="hashtag">#Seguridad #RecuperaciónDeDatos #SistemasOperativos</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://openhardwaremonitor.org/">Open Hardware Monitor</a>
+        <p>Permite ver temperaturas, voltajes, ventiladores, velocidad de CPU, etc.</p>
+        <p class="hashtag">#Hardware #Monitorización #Sistemas</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://www.finalcrypt.org/project-6.php">FinalCrypt</a>
+        <p>Para cifrar ficheros</p>
+        <p class="hashtag">#Seguridad #Cifrado #Archivos</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://www.tribler.org/">Tribler</a>
+        <p>Aplicación que une Tor y BitTorrent para hacer las descargas más seguras y anónimas</p>
+        <p class="hashtag">#Privacidad #Descargas #Internet</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://xoslab.com/download.html">Easy File Locker</a>
+        <p>Con esta aplicación podremos impedir que personas ajenas vean el contenido de un fichero o carpeta. La aplicación nos permite ocultar, mostrar, dar permisos de escritura a una carpeta. Para poder modificar las opciones es necesario la clave que previamente hemos puesto en la aplicación</p>
+        <p class="hashtag">#Seguridad #Archivos #Privacidad</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://www.malavida.com/es/soft/lock-a-folder/">Lock-A-Folder</a>
+        <p>Muy parecida a Easy File Locker. Nos permite ocultar una carpeta para impedir que vean nuestros ficheros</p>
+        <p class="hashtag">#Seguridad #Archivos #Privacidad</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://upscayl.github.io">Aplicación Upscaley</a>
+        <p>Aplicación que utiliza IA para aumentar la resolución de una imagen</p>
+        <p class="hashtag">#IA #Imagen #Resolución</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/safety-scanner-download?view=o365-worldwide">Microsoft Safety Scanner</a>
+        <p>Aplicación de Microsoft que busca y elimina malware de tu computadora</p>
+        <p class="hashtag">#Seguridad #Microsoft #Malware</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://flameshot.org/">Flameshot</a>
+        <p>Aplicación multiplataforma para realizar capturas de pantalla personalizables</p>
+        <p class="hashtag">#CapturaDePantalla #Personalización</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://www.oo-software.com/en/ooappbuster">OO AppBuster</a>
+        <p>Aplicación portable para desinstalar aplicaciones preinstaladas en Windows 10 y 11</p>
+        <p class="hashtag">#Desinstalar #Windows10 #Windows11</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://www.universalmediaserver.com/">Universal Media Server</a>
+        <p>Aplicación que te permite crear un servidor multimedia para reproducir audio, video o imágenes en streaming</p>
+        <p class="hashtag">#ServidorMultimedia #Streaming #Audio #Video #Imagen</p>
+    </li>
+</ol>
+
+<ol class="box">
+    <li>
+        <a href="https://christitus.com/dism-plus/">Dism++</a>
+        <p>Herramienta para modificar las imágenes de Windows</p>
+        <p class="hashtag">#Windows #Modificación #Herramienta</p>
+    </li>
+</ol>
+
+
+  <!-- Seccion / Extensiones navegador
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="seccion"><h2 id="extensiones" data-title="">Extensiones navegador</h2>
+  <p>En esta sección se ofrecen enlaces a extensiones de navegador útiles para diferentes navegadores, como Google Chrome, Mozilla Firefox, entre otros. Los usuarios pueden encontrar extensiones para mejorar su experiencia de navegación en línea. Las extensiones pueden ser de diferentes categorías, como bloqueadores de anuncios, herramientas de productividad, extensiones de seguridad, entre otros.</p>
+  </div>
+
+  <ol class="box">
+    <li>
+      <a href="https://adblockplus.org/">Adblock Plus</a>
+      <p>Bloqueador de anuncios para una navegación más rápida y sin distracciones.</p>
+      <p class="hashtag">#bloqueadordeanuncios #extensiondenavegador #privacidadenlinea</p>
+    </li>
+  </ol>
+
+  <ol class="box">
+    <li>
+      <a href="https://www.lastpass.com/">LastPass</a>
+      <p>Gestor de contraseñas seguro para recordar y completar automáticamente tus credenciales.</p>
+      <p class="hashtag">#gestordecontraseñas #extensiondenavegador #seguridadenlinea</p>
+    </li>
+  </ol>
+
+ <ol class="box">
+    <li>
+      <a href="https://momentumdash.com/">Momentum</a>
+      <p>Reemplaza la página de inicio de tu navegador con una página de inicio personalizable con funciones útiles.</p>
+      <p class="hashtag">#paginadeinicio #extensiondenavegador #productividad</p>
+    </li>
+ </ol>
+
+ <ol class="box">
+  <li>
+    <a href="https://glasp.co/">Glasp</a>
+    <p>Gestión de contraseñas segura y sencilla.</p>
+    <p class="hashtag">#seguridad #contraseñas</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://chrome.google.com/webstore/detail/hover-zoom%20/pccckmaobkjjboncdfnnofkonhgpceea?hl=es">Hover Zoom+</a>
+    <p>Extensión que permite ampliar las imágenes al pasar el cursor sobre ellas.</p>
+    <p class="hashtag">#imágenes #navegador</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn/related?hl=es">Clear Cache</a>
+    <p>Extensión para borrar la caché del navegador con un solo clic.</p>
+    <p class="hashtag">#navegador #limpieza</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://chrome.google.com/webstore/detail/save-image-as-type/gabfmnliflodkdafenbcpjdlppllnemd">Save Images as Type</a>
+    <p>Extensión que permite guardar imágenes en diferentes formatos.</p>
+    <p class="hashtag">#imágenes #navegador</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://chrome.google.com/webstore/detail/scribe-%E2%80%94-documentation-so/okfkdaglfjjjfefdcppliegebpoegaii">Scribe</a>
+    <p>Extensión para crear documentación de software.</p>
+    <p class="hashtag">#software #documentación</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://chrome.google.com/webstore/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid/related">Unhook</a>
+    <p>Extensión para eliminar recomendaciones de YouTube y redes sociales.</p>
+    <p class="hashtag">#YouTube #redes sociales</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://chrome.google.com/webstore/detail/chatgpt-for-google/jgjaeacdkonaoafenlfkkkmbaopkbilf">ChatGPT for Google</a>
+    <p>Extensión que permite chatear con ChatGPT directamente desde Google.</p>
+    <p class="hashtag">#ChatGPT #Google</p>
+  </li>
+</ol>
+
+<ol class="box">
+  <li>
+    <a href="https://chrome.google.com/webstore/detail/webchatgpt/lpfemeioodjbpieminkklglpmhlngfcn">WebChatGPT</a>
+    <p>Extensión de chat para hablar con ChatGPT directamente en el navegador</p>
+    <p class="hashtag">#ChatGPT #IA #Comunicación</p>
+  </li>
+</ol>
+
+
+
 </section>
+
+  <!-- Footer
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+</body>
 <footer>
   <p>Ultima actualizacion 13/08/2022</p>
 </footer>
