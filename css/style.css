@@ -13,14 +13,9 @@ body{
   font-style: normal;
   background-color: #ecf0f9;
   color: #b6becd;
+  scroll-behavior: smooth;
 }
 
-
-
-p::selection{
-  background-color:#72c5af;
-  color: white;
-}
 
 a{
   color: black;
@@ -114,6 +109,7 @@ a{
 .box {
 transition: box-shadow 0.6s ease;
 }
+
 
 
 
