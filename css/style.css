@@ -1,5 +1,15 @@
 /* Ajustes generales  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+  /* Fuentes  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+  font-family: 'MonaspaceNeonVarVF';
+  src: url('fonts/MonaspaceNeonVarVF/MonaspaceNeonVarVF [wght,wdth,slnt].ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* General  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 html{
   scroll-behavior: smooth;
 }
@@ -9,7 +19,7 @@ body{
   font-size: 1.7vh;
   line-height: 24px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'MonaspaceNeonVarVF', monospace;
   font-style: normal;
   background-color: #ecf0f9;
   color: #b6becd;
@@ -49,7 +59,7 @@ a{
   background-size: 145px;
   background-position: center;
   background-image: url("../img/link.png");
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'MonaspaceNeonVarVF', monospace;
 }
 
 .menu{
